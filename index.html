@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="ukr">
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Магазин магазин військової зброї та спорядження." >
+
+	<title>WarShop</title>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+	<header>
+
+		<a href="#">
+			<h1>Tacticool</h1>
+		</a>
+		<div>
+		<nav>
+			<a href="#"> <img src="ukraine.png"> </a>
+			<a href="#"> <img src="usa.png"> </a>
+			<a href="#"> <img src="Acc_Backpack.png"> </a>
+			<a href="#"> <img src="Acc_Man.png"> </a>
+			
+		</nav>
+
+	<!-- /*____Burger_____*/ -->
+			<div>
+				<ul class="navbar" id="navbar">
+				    <li><a href="#search">Пошук</a></li>
+				    <li><a href="#categories">Категорії</a></li>
+				    <li><a href="#about_us">Про нас</a></li>
+				    <li><a href="#contacts">Контакти</a></li>
+				    <a class="close" href="#">
+				      <img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+				    </a>
+		  		</ul>
+		  		<a class="hamburger" href="#navbar">
+		      		<img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+		  		</a>
+			</div>
+		</div>
+<!-- 		/* ______________ */ -->
+
+
+	</header>
+
+
+	<main>
+		<div>
+			<section>
+				<p>Вітаємо! Для зручності та безпеки ввійдіть у Ваш акаунт.</p>
+				<h1>Щоб оглянути наш асортимент здійсніть пошук або виберіть категорію:</h1>
+			</section>
+
+			<section id="search">
+				<input type="text" name="search" placeholder="Search..">
+			</section>
+
+			<section class="gallery" id="categories">
+				<a href="#categories" class="center-category-block">
+					<h1>Зброя</h1>
+					<img src="weapon_category.jpg"> 
+				</a>
+					
+				<a href="#categories" class="center-category-block">
+					<h1>Аксесуари</h1>
+					<img src="parts_category.jpg"> 
+				</a>
+
+				<a href="#categories" class="center-category-block">
+						<h1>Набої</h1>
+						<img src="ammo_category.jpg"> 
+				</a>
+
+				<a href="#categories" class="center-category-block">
+					<h1>Одяг</h1>
+					<img src="clothes_category.jpg">
+				</a>
+			</section>
+			<section >
+				<div>
+					<h1>Коротке мотиваційне відео про ефективність ЗСУ із сучасними технологіями</h1>
+				</div>
+				<div>
+					<iframe src="https://www.youtube.com/embed/v79XZlMgyhk">
+					</iframe> 	
+				</div>
+			</section>
+
+			<h1>Швидкі донати на армію:</h1>
+			<section class="donation">
+				<div class="donate-option">
+					<div class="title">BASIC</div>
+					<div class="price">5$</div>
+					<ul class="description">
+						<li>0.1% на перше замовлення</li>
+						<li>1 наліпка при замовленні</li>
+						<li>Пріорітетність - 1</li>
+					</ul>
+				</div>
+				<div class="donate-option">
+					<div class="title">PREMIUM</div>
+					<div class="price">15$</div>
+					<ul class="description">
+						<li>0.5% на перше замовлення</li>
+						<li>2 наліпки при замовленні</li>
+						<li>Пріорітетність - 2</li>
+					</ul>
+				</div>
+				<div class="donate-option">
+					<div class="title">ADVANCE</div>
+					<div class="price">25$</div>
+					<ul class="description">
+						<li>1% на перше замовлення</li>
+						<li>5 наліпок при замовленні</li>
+						<li>Пріорітетність - 3</li>
+					</ul>
+				</div>
+				<div class="donate-option">
+					<div class="title">PROFFESIONAL</div>
+					<div class="price">50$</div>
+					<ul class="description">
+						<li>2% на перше замовлення</li>
+						<li>5 наліпок при замовленні</li>
+						<li>Пріорітетність - 4</li>
+						<li>Додатковий дрібний</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="about_us">
+				<h1>Коротко про нас</h1>
+					<h2>Що ми робимо?</h2>
+						<p>Компанія займається продажем зброї, аксесуарів, набоїв та військового одягу. WarShop працює вже 5 років.</p>
+					<h2>Звідки беремо зброю, одяг та інше?</h2>
+						<p>Постачання товару до магазину здійснюється партнерами.</p>
+					<h2>Як ми отримали дозвіл на продаж та утримування такого типу товарів?</h2>
+						<p>Ліцензії та дозволи до усіх товарів надаються через державні установи відповідно до всіх вимог законодавства.</p>
+			</section>
+			<section>
+				<h1>Надіслати повідомлення</h1>
+				<div class="container">
+				  <form action="action_page.php">
+
+				    <label>Ім'я</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Ваше ім'я..">
+
+				    <label>Прізвище</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Ваше прізвище..">
+
+				    <label>Тип товару</label>
+				    <select id="cont_categories" name="Категорії">
+				      <option value="cont_categories_weapon">Зброя</option>
+				      <option value="cont_categories_acc">Аксесуари</option>
+				      <option value="cont_categories_ammo">Набої</option>
+				      <option value="cont_categories_cloth">Одяг</option>
+				    </select>
+
+				    <label>Повідомлення</label>
+				    <textarea id="subject" name="subject" placeholder="Напишіть Ваше повідомлення.." style="height:80px"></textarea>
+
+				    <input type="submit" value="Надіслати">
+				  </form>
+				</div>
+			</section>
+		</div>
+	</main>
+
+
+	<footer>
+		<nav>
+			<div>
+				
+				<a href="#"> <p>Допомога армії</p> </a>
+				<a href="#"> <p>Волонтерство</p> </a>
+				
+			</div>
+			<div>
+				<a href="#"> <p>Реклама</p> </a>
+				<a href="#"> <p>Партнерство</p> </a>
+			</div>
+			<div>
+				<a href="#"> <p>Дозволи та ліцензії</p> </a>
+			</div>
+
+			<div>
+				<a href="#contacts" id="contacts"> <p>Про нас</p>
+				<a href="#contacts"> <img src="Viber.svg"> </a>
+				<a href="#contacts"> <img src="Telegram.svg"> </a>
+				<a href="#contacts"> <img src="Gmail.svg"> </a>
+			</div>
+		</nav>
+	</footer>
+
+
+</body>
+
+</html>
